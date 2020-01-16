@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 1500px;
+    height: 260px;
+    border: 2px solid rgb(41, 94, 207);
+    margin: 10px;
+    float: left;
+    padding: 0;
+}
+
+#car1 {
+    position: absolute;
+    width: 130px; 
+    height: 130px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+#car2 {
+    position: absolute;
+    width: 130px; 
+    height: 130px;
+    margin-top: 120px;
+    margin-left:10px;
+}
+
+#finish {
+    z-index: -1;
+    position: absolute;
+    width: 130px; 
+    height: 250px;
+    margin-top: 3px;
+    margin-left:937px;
+}
+
+#button {
+    width: 200px; 
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+p {
+    width: 415px;
+    height: 50px;
+    border: 2px solid rgb(41, 94, 207);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(41, 94, 207);
+    text-align: center;
+    font-style: italic;   
+}
