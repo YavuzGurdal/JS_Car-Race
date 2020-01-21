@@ -13,6 +13,7 @@ div {
     margin: 10px;
     float: left;
     padding: 0;
+    position: relative;
 }
 
 #car1 {
@@ -37,7 +38,7 @@ div {
     width: 130px; 
     height: 250px;
     margin-top: 3px;
-    margin-left:937px;
+    margin-left:1096px;
 }
 
 #button {
