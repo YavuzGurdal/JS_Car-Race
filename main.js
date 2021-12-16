@@ -24,10 +24,10 @@ function move() {
         if ( position1 >= 1000){
                 clearInterval(idVar);
                 sonuc.style.color = "red";
-                sonuc.innerHTML = "Kırmızı araba kazandı";
+                sonuc.innerHTML = "Red Car Won";
         } else if ( position2 >= 1000) {
             clearInterval(idVar);
-            sonuc.innerHTML = "Sarı araba kazandı";
+            sonuc.innerHTML = "Yellow Car Won";
             sonuc.style.color = "#bdac13";
         } else if (position1 >= 1000 && position2 >= 1000 && position1 == position2) {
             clearInterval(idVar)
